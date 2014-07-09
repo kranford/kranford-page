@@ -1,0 +1,33 @@
+<div class="row mainView">
+    <div class="col-md-12">
+        <div id="kranford-images" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators hidden-xs hidden-sm">
+                <li ng-repeat="imageID in [1,2,3,4,5,6,7]" data-target="#kranford-images" data-slide-to="{{$index}}" ng-class="{active : $index==0}"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div ng-repeat="imageID in [1,2,3,4,5,6,7]" class="item text-center" ng-class="{active : $index==0}"><p>
+                    <img ng-src="./assets/mainview/main{{imageID}}.jpg"/>
+                </p></div>
+            </div>
+            <div class="overlap hidden-sm hidden-xs">
+                <h2 translate>MAIN.HEADLINE</h2>
+
+                <p translate>MAIN.MESSAGE</p>
+            </div>
+            <a class="left carousel-control" href="#kranford-images" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a><a class="right carousel-control" href="#kranford-images" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+        </div>
+    </div>
+</div>
+
+<div class="row text-center">
+    <div ng-repeat="b in data.initBlocks" class="col-md-3 text-center kranford-main-icon">
+        <div>
+            <a ng-if="b.link" href="{{b.link}}" target="_blank" class="thumbnail"> <img ng-src="{{b.image}}"> </a>
+            <a ng-if="b.state" href="{{b.state}}" class="thumbnail"> <img ng-src="{{b.image}}"> </a>
+            <p class="block-text">
+                <a ng-if="b.link" href="{{b.link}}" target="_blank" translate> {{b.name}} </a>
+                <a ng-if="b.state" href="{{b.state}}" translate> {{b.name}} </a>
+            </p>
+        </div>
+    </div>
+</div>

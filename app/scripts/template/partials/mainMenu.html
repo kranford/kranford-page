@@ -1,0 +1,32 @@
+<div class="kranford-menu-main">
+    <nav class="navbar navbar-default" role="navigation" data-spy="affix" data-offset-top="50" data-offset-bottom="200">
+        <div class="container kranford-affix">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainmenu-kranford">
+                    <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="mainmenu-kranford">
+                <ul class="nav navbar-nav navbar-right">
+                    <li ui-sref-active="active"><a ui-sref="main.about" translate>MENU.ABOUT</a></li>
+                    <li ui-sref-active="active"><a ui-sref="main.service" translate>MENU.SERVICE</a></li>
+                    <li ui-sref-active="active"><a ui-sref="main.partners" translate>MENU.PARTNERS</a></li>
+                    <li ui-sref-active="active"><a ui-sref="main.team" translate>MENU.TEAM</a></li>
+                    <li ui-sref-active="active"><a ui-sref="main.contact" translate>MENU.CONTACT</a></li>
+                    <li>
+                        <p class="navbar-text">
+                            <a ng-click="translate('pl')" ui-sref="main.init">pl</a> |
+                            <a ng-click="translate('en')" ui-sref="main.init">en</a>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <a ui-sref="main.init" class="kranford-logo"> <img src="./assets/logo7.png"/>
+        <h5 translate>COMMON.logotext</h5>
+    </a>
+
+</div>

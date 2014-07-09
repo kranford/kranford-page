@@ -1,0 +1,59 @@
+{
+    "MAIN": {
+        "HEADLINE": "Real Estate and Construction Consulting",
+        "MESSAGE": "If you are interested in entering the Polish market infrastructure or real estate, do not hesitate to contact us.",
+        "IKO1": "Logistics",
+        "IKO2": "Modular Construction",
+        "IKO3": "Apartment Rental - Zakopane",
+        "IKO4": "Commercial Real Estate Rental"
+    },
+    "COMMON": {
+        "contact": "Contact",
+        "showRealization": "Show Kranford realizations",
+        "hideRealization": "Hide Kranford realizations",
+        "logotext": "Construction &amp; Property Consultants"
+    },
+    "MENU": {
+        "ABOUT": "About Us",
+        "SERVICE": "Services",
+        "PARTNERS": "Partners",
+        "TEAM": "Team",
+        "CONTACT": "Contact"
+    },
+    "ABOUT": {
+        "title": "About Us",
+        "subtitle": "Kranford is a company providing comprehensive advisory services. We offer support to foreign investors, investment funds and developers who want to invest in Poland.",
+        "head1": "About Us",
+        "message1": "In our database we have parcels for residential, office and commercial premises as well as ready made investment projects. Thanks to diversified activities we offer a wide range of services - from assistance in purchasing and selling of land and property, to finish and management.",
+        "head2": "Experience",
+        "message2": "Kranford brings together people with long years of experience. The Company founders have been cooperating developers and investment funds for over 20 years. We use the accomplished experience and acquired knowledge in professional service. Long lasting and thorough knowledge of the Polish market allows us to an individual approach to each project.",
+        "head3": "Contacts",
+        "message3": "Kranford offers its services not only to investors and owners but also to  land  and real estate tenants. We cooperate with the largest commercial developers operating on the Polish market. Thanks to this we offer our customers a constantly expanding network of industry contacts."
+    },
+    "PARTNER": {
+        "title": "Partners"
+    },
+    "TEAM": {
+        "title": "Team",
+        "manager": "Managing Board",
+        "section": "Departments",
+        "head": "Member of the Managing Board",
+        "marketing": "Marketing and Customer Care Specialist",
+        "account": "Property Management Specialist",
+        "madrid": "Madrid's Office Coordinator",
+        "prices": "Property Valuation Specialist"
+    },
+    "SERVICE": {
+        "title": "Services",
+        "subtitle": "Kranford provides assistance at every stage of the project - from consulting, through the mediation of the purchase, comprehensive management, sales and attract customers. We conduct market research and offer activities in the field of real estate marketing.",
+        "s1": "Agency",
+        "s2": "Commercial real estate rental",
+        "s3": "Property management",
+        "s4": "Property valuation",
+        "s5": "Interior finish",
+        "s6": "Investment consulting",
+        "s7": "Services for construction companies",
+        "s8": "Modular construction",
+		"s9": "Logistics"
+    }
+}

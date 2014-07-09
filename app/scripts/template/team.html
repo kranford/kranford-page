@@ -1,0 +1,24 @@
+<div class="kranford-header">
+    <div class="header-team">
+        <h1 translate>TEAM.title</h1>
+    </div>
+</div>
+
+
+<div class="person-container text-center" ng-repeat="roles in data.team">
+    <div class="page-header separator">
+        <h3 translate>{{roles.role}}</h3>
+    </div>
+    <div class="row persons">
+        <div ng-repeat="person in roles.persons" class="col-md-2">
+            <div ng-show="!person.offset">
+                <div class="thumbnail">
+                    <img class="media-object" ng-src="{{person.icon}}">
+                </div>
+                <h4 class="strong person-name">{{person.name}}</h4>
+                <p class="small person-position"><b translate>{{person.position}}</b></p>
+
+            </div>
+        </div>
+    </div>
+</div>

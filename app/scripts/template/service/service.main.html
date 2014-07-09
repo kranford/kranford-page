@@ -1,0 +1,26 @@
+<div class="kranford-service">
+
+    <div class="kranford-header">
+        <div class="header-service-main">
+            <h1 translate>SERVICE.title</h1>
+        </div>
+    </div>
+    <p class="section-subheader" translate>SERVICE.subtitle</p>
+
+    <div class="row">
+        <div ng-repeat="s in data.services" class="col-md-4 text-center kranford-service-icon">
+            <a ui-sref="main.serviceInfo({serviceID:s.sid})" class="thumbnail">
+                <img ng-src="./assets/service/{{s.ref}}.png">
+            </a>
+
+            <div class="list-group">
+
+                <a ui-sref="main.serviceInfo({serviceID:s.sid})" class="list-group-item active" translate>
+                    SERVICE.{{s.ref}}
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+</div>

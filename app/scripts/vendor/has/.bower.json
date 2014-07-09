@@ -1,0 +1,12 @@
+{
+  "name": "has",
+  "homepage": "https://github.com/phiggins42/has.js",
+  "_release": "c6d621477d",
+  "_resolution": {
+    "type": "commit",
+    "commit": "c6d621477d9113adba9af1d8b98f162c399771a6"
+  },
+  "_source": "git://github.com/phiggins42/has.js.git",
+  "_target": "c6d621477d9113adba9af1d8b98f162c399771a6",
+  "_originalSource": "has"
+}

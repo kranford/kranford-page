@@ -1,0 +1,28 @@
+<div class="kranford-header">
+    <div class="header-service-info" ng-class="data.service.ref">
+        <h1 translate>SERVICE.{{data.service.ref}}</h1>
+    </div>
+</div>
+<div marked ng-include="data.service.description_md"></div>
+
+<div ng-if="false" class="row mainView">
+    <div class="col-md-12">
+        <div ng-show="!show">
+            <button type="button" ng-click="show=true" class="btn btn-kranford" translate>COMMON.showRealization</button>
+        </div>
+        <div ng-show="show">
+            <button type="button" ng-click="show=false" class="btn btn-link" translate>COMMON.hideRealization</button>
+        </div>
+        <div ng-show="show" id="kranford-images" class="carousel slide" data-ride="carousel">
+            <!--<ol class="carousel-indicators hidden-xs hidden-sm">-->
+            <!--<li ng-repeat="imageID in [0,1,2,3,4,5]" data-target="#kranford-images" data-slide-to="{{$index}}" ng-class="{active : $index==0}"></li>-->
+            <!--</ol>-->
+            <div class="carousel-inner">
+                <div ng-repeat="imageID in [0,1,2,3,4,5]" class="item text-center" ng-class="{active : $index==0}"><p>
+                    <img ng-src="./assets/mainview/main{{imageID}}.jpg"/>
+                </p></div>
+            </div>
+            <a class="left carousel-control" href="#kranford-images" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a><a class="right carousel-control" href="#kranford-images" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+        </div>
+    </div>
+</div>
